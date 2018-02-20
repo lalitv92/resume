@@ -1,0 +1,131 @@
+html, body {
+height: auto;
+}
+
+html {
+background: #eee;
+}
+
+body *{
+font-family: Arial, Helvetica, sans-serif;
+background: #fff;
+}
+body {
+font-size: 1.1em;
+color: #333;
+box-shadow: 0 0 10px #ccc;
+width: 100%;
+max-width: 900px;
+margin: 50px auto 200px;
+background: #fff;
+padding: 3em;
+transition: all .3s ease;
+}
+
+h1, h2, h3 {
+font-weight: bold;
+display: block;
+line-height: 1.1;
+overflow: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: black dashed 2px;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 2px;
+    margin-bottom: 0em;
+    margin-top: 1em;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tags {
+    margin: 0px;
+}
+.date {
+    float:right;
+    margin-top:0.2em;
+    font-size:0.8em;
+    color: #aaa;
+    display: inline-block;
+}
+.email {
+float:right;
+font-weight:normal;
+font-size:0.5em;
+}
+
+.icon {
+    background: transparent;
+    vertical-align: middle;
+    margin-right: 3px;
+    font-size: 1.1em;
+}
+
+@media print {
+    @page {
+      margin: 1.5cm 0.5cm;
+    }
+
+    html {
+        background: white;
+        padding: 0px;
+        margin: 0px;
+        }
+    h1 {
+        font-size: 21px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+        width: 100%;
+        padding: 0px;
+        margin: 0em;
+        box-shadow: none;
+    }
+
+    .download {
+      display: none;
+    }
+
+    /*#external_link {
+        display: none;
+    }*/
+  
+    a {
+      color: #333;
+    }
+  
+    .links  a {
+      padding: 0;
+    }
+  }
