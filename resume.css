@@ -1,131 +1,99 @@
-html, body {
-height: auto;
-}
-
 html {
-background: #eee;
-}
-
-body *{
-font-family: Arial, Helvetica, sans-serif;
-background: #fff;
+    background: #eee;
 }
 body {
-font-size: 1.1em;
-color: #333;
-box-shadow: 0 0 10px #ccc;
-width: 100%;
-max-width: 900px;
-margin: 50px auto 200px;
-background: #fff;
-padding: 3em;
-transition: all .3s ease;
+    max-width: 21cm !important;
+    width: 100%;
+    padding: 1.2cm !important;
+    margin-top: 50px !important;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
-font-weight: bold;
-display: block;
-line-height: 1.1;
-overflow: auto;
-}
-
-h1 {
-    font-size: 1.5em;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
 
 h2 {
-    font-size: 1.2em;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    border-bottom: black dashed 2px;
+    font-size: 19px;
+    border-bottom: 2px dashed black;
 }
 
 h3 {
-    font-size: 1em;
-    padding-bottom: 2px;
-    margin-bottom: 0em;
-    margin-top: 1em;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 p {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin: 5px 0px;
 }
 
-ul {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.tags {
-    margin: 0px;
-}
-.date {
-    float:right;
-    margin-top:0.2em;
-    font-size:0.8em;
-    color: #aaa;
-    display: inline-block;
-}
-.email {
-float:right;
-font-weight:normal;
-font-size:0.5em;
+.contact {
+    font-size: 0.9em;
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
 }
 
 .icon {
     background: transparent;
-    vertical-align: middle;
     margin-right: 3px;
-    font-size: 1.1em;
 }
 
-@media print {
+.w3-button {
+    padding: 4px 8px !important;
+}
+
+.date {
+    color:gray;
+    float: right;
+    font-size: 13px;
+}
+
+.education {
+    font-size: 14px;
+    font-style: italic;
+}
+
+ul {
+    padding:  0 0 0 16px;
+    margin: 5px 0px;
+}
+
+.skill {
+    font-size: 12px;
+    padding: 1px 6px !important;
+    margin-right: 5px;
+}
+
+@media print{
     @page {
-      margin: 1.5cm 0.5cm;
-    }
+        margin: 0.5cm;
+      }
 
     html {
         background: white;
-        padding: 0px;
-        margin: 0px;
-        }
+    }
+
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+        box-shadow: none;
+        font-size: 14px;
+    }
+
     h1 {
         font-size: 21px;
     }
-    
-    h2 {
+    h2, h3, p {
         font-size: 14px;
     }
-    h3 {
-        font-size: 14px;
-    }
-    p {
-        font-size: 14px;
-    }
-    body {
-        font-size: 14px;
-        width: 100%;
-        padding: 0px;
-        margin: 0em;
-        box-shadow: none;
-    }
-
-    .download {
-      display: none;
-    }
-
-    /*#external_link {
-        display: none;
-    }*/
-  
-    a {
-      color: #333;
-    }
-  
-    .links  a {
-      padding: 0;
-    }
-  }
+}
