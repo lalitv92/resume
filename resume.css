@@ -96,4 +96,8 @@ ul {
     h2, h3, p {
         font-size: 14px;
     }
+
+    #download {
+      display: none;
+    }
 }
