@@ -100,4 +100,8 @@ ul {
     #download {
       display: none;
     }
+    .date {
+        font-size: 13px;
+        color: #333 !important;
+    }
 }
